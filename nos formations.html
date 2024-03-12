@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nos formations</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #ece904f3;
+            color: #0a0a0afa;
+            text-align: center;
+            padding: 0.5em ;
+        }
+
+        h1, h2 {
+            color: #007bff;
+        }
+
+        section {
+            margin: 2em 0;
+            padding: 1em;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            text-align: center;
+            padding: 1em 0;
+            background-color: #007bff;
+            color: #fff;
+        }
+        label{
+            background-color: chartreuse;
+        }
+        #langues{
+            
+            background-color: aquamarine;
+        }
+        #informatique{
+            background-color: aqua;
+        }
+        #comptabilité{
+            background-color: coral;
+        }
+        #programmation{
+            background-color: chartreuse;
+        }
+        #logo{
+            width: 100px;
+            height: 100px;
+        }
+        nav{
+      color: chocolate;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Formations disponibles</h1> 
+        <img src="logo.png" alt="logo" id="logo"> 
+        <nav>
+            <button onclick="window.location.href='mon projet.html'">Accueil</button>
+        </nav>
+        
+    </header>
+
+    <section id="langues">
+        <h2>Formations en langues</h2> 
+        <p>Explorez nos programmes de formation en langues pour améliorer vos compétences linguistiques.</p>
+        <label for="types-formation">Choisissez la langue :</label>
+        <select id="langue" name="langue">
+            <option value="formation1">Francais</option>
+            <option value="formation2">Anglais</option>
+            <option value="formation3">Allemand</option>
+          
+        </select>
+    </section>
+
+    <section id="informatique">
+        <h2>Formations en informatique</h2>
+        <p>Découvrez nos formations en informatique pour acquérir des compétences techniques.</p>
+        
+        <label for="types-formation">Choisissez le type de formation :</label>
+        <select id="types-formation" name="types-formation">
+            <option value="formation1">Informatique bureautique</option>
+            <option value="formation2">Base de donnée sql server</option>
+            <option value="formation3">Algorithme</option>
+          
+        </select>
+    </section>
+    
+
+    <section id="comptabilité">
+        <h2>Formations en comptabilité</h2>
+        <p>Perfectionnez vos connaissances en comptabilité avec nos cours spécialisés.</p>
+        <label for="types-formation">Choisissez le niveau de comptabilité :</label>
+        <select id="niveau" name="niveau">
+            <option value="formation1">comptabilité générale niveau 1</option>
+            <option value="formation2">comptabilité générale niveau 2</option>
+            <option value="formation3">comptabilité générale niveau 3</option>
+          
+        </select>
+    </section>
+
+    <section id="programmation">
+        <h2>Formations en programmation</h2>
+        <p>Perfectionnez vos connaissances en programmation avec nos cours spécialisés.</p>
+        <label for="types-formation">Choisissez le language de programmation :</label>
+        <select id="language" name="language">
+            <option value="formation1">C </option>
+            <option value="formation2">JAVA</option>
+            <option value="formation3">Phyton</option>
+          
+        </select>   
+    </section>
+ 
